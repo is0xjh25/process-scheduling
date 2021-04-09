@@ -1,0 +1,4 @@
+The process queue would be sorted by execution time from long to short. 
+Therefore, the long process would not position at the end and extend makespan.
+Also, the K value would be number of processor divided by two, 
+so the parallelisable processes would not hold all processores at same time.
