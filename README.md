@@ -5,9 +5,9 @@
 •	Simulated and allocated CPU to the running processes\
 •	Used various CPU Scheduling Algorithms to meet various requirements\
 
-## Requirments
+## Requirements
 
-###1.Single processor scheduler
+### 1.Single processor scheduler
 Processes will be allocated CPU time according to shortest-time-remaining algorithm, a preemptive scheduling algorithm. When a new process arrives, 
 it is scheduled if there is no other process running. If, when process j arrives, 
 there is a process i running, then i is postponed and added to a queue if and only if j has a shorter execution time than the remaining time of i. 
@@ -36,4 +36,4 @@ Once a process or subprocess is assigned to a CPU it cannot migrate to another C
 You will be asked to measure the overall time of your simulation (Makespan). The challenge task is to come up with an algorithm that has a shorter makespan on a set of tests (see details in Section 7). For this task the choice of k when splitting a parallelisable process is left to you. You are also allowed to “look into the future” and see what processes will be arriving and use this information if you choose to. (Think of whether it is possible and how one would obtain such information in real life.) You will be required to explain why your algorithm is more efficient in a short report.
 
 ---
-_more details in project description!_
+_more details in project specification!_
