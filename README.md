@@ -3,7 +3,7 @@
 ## Summary
 •	Familiarized with process scheduling in a multi-processor environment\
 •	Simulated and allocated CPU to the running processes\
-•	Used various CPU Scheduling Algorithms to meet various requirements\
+•	Used various CPU Scheduling Algorithms to meet various requirements
 
 ## Requirement
 
