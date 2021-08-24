@@ -5,7 +5,7 @@
 •	Simulated and allocated CPU to the running processes\
 •	Used various CPU Scheduling Algorithms to meet various requirements\
 
-## Requirements
+## Requirement
 
 ### 1.Single processor scheduler
 Processes will be allocated CPU time according to shortest-time-remaining algorithm, a preemptive scheduling algorithm. When a new process arrives, 
