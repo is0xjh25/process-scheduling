@@ -37,7 +37,8 @@ You will be asked to measure the overall time of your simulation (Makespan). The
 
 ---
 ### Command Line
-./allocate -f processes.txt -p 1\
+./allocate -f processes.txt -p 1
+
 In processes.txt:\
 0 4 30 n\
 3 2 40 n\
