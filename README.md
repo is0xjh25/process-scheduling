@@ -37,10 +37,15 @@ You will be asked to measure the overall time of your simulation (Makespan). The
 
 ---
 ### Command Line
-./allocate -f processes.txt -p 1.
-  
+./allocate -f processes.txt -p 1\
+In processes.txt:\
+0 4 30 n\
+3 2 40 n\
+5 1 20 n\
+20 3 30 n
+
 ### Output
-_appears in log file_\
+_shows in terminal_
 20,RUNNING,pid=15,remaining_time=10,cpu=1\
 30,FINISHED,pid=15,proc_remaining=0\
 Turnaround time 62\
