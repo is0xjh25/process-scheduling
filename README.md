@@ -44,8 +44,8 @@ In processes.txt:\
 5 1 20 n\
 20 3 30 n
 
-### Output
-_shows in terminal_\
+### Example Output
+#### _shows in terminal_
 20,RUNNING,pid=15,remaining_time=10,cpu=1\
 30,FINISHED,pid=15,proc_remaining=0\
 Turnaround time 62\
