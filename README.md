@@ -36,4 +36,16 @@ Once a process or subprocess is assigned to a CPU it cannot migrate to another C
 You will be asked to measure the overall time of your simulation (Makespan). The challenge task is to come up with an algorithm that has a shorter makespan on a set of tests (see details in Section 7). For this task the choice of k when splitting a parallelisable process is left to you. You are also allowed to “look into the future” and see what processes will be arriving and use this information if you choose to. (Think of whether it is possible and how one would obtain such information in real life.) You will be required to explain why your algorithm is more efficient in a short report.
 
 ---
+### Command Line
+./allocate -f processes.txt -p 1.
+  
+### Output
+_appears in log file_\
+20,RUNNING,pid=15,remaining_time=10,cpu=1\
+30,FINISHED,pid=15,proc_remaining=0\
+Turnaround time 62\
+Time overhead 2.93 1.9\
+Makespan 120
+
+---
 _more details in project specification!_
